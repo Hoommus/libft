@@ -17,6 +17,7 @@
 # include <stdlib.h>
 # include <unistd.h>
 # include <stdarg.h>
+# include <zconf.h>
 
 # define LIBFT_WHTSP "\n\t \r\a"
 # define ABS(a) ((a) < 0 ? -(a) : (a))

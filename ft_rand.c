@@ -12,6 +12,7 @@
 
 #include <fcntl.h>
 #include <unistd.h>
+#include <zconf.h>
 
 u_int64_t		ft_rand(u_int64_t limit)
 {
