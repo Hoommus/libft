@@ -12,7 +12,7 @@
 
 #include "get_next_line.h"
 
-int		magic(char **line, char **buf)
+static inline int	magic(char **line, char **buf)
 {
 	char	*swap;
 	char	*slash;
@@ -39,7 +39,7 @@ int		magic(char **line, char **buf)
 	}
 }
 
-int		get_next_line(const int fd, char **line)
+int					get_next_line(const int fd, char **line)
 {
 	static char	*buf[4864];
 	char		*b;
