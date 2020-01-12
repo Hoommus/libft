@@ -103,7 +103,7 @@ void			ft_putnbr(int n);
 void			ft_putchar_fd(char c, int fd);
 void			ft_putstr_fd(char const *s, int fd);
 void			ft_putendl_fd(char const *s, int fd);
-void			ft_putnbr_fd(int n, int fd);
+void			ft_putnbr_fd(long long n, int fd);
 
 size_t			ft_nbrlen_base(long long int nbr, int base);
 int				ft_nbrlen(long long nbr);

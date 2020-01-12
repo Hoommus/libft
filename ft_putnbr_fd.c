@@ -12,10 +12,10 @@
 
 #include "libft.h"
 
-void	ft_putnbr_fd(int n, int fd)
+void	ft_putnbr_fd(long long n, int fd)
 {
-	int		curr;
-	int		next;
+	long long	curr;
+	long long	next;
 
 	if (n == -2147483648)
 	{
